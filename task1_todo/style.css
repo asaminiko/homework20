@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+#myAdd {
+  background-color: Bisque;
+}
+
+.remove {
+  background-color: rgb(242, 95, 95);
+}
+
+.change {
+  background-color: rgb(180, 143, 214);
+}
+
+.okBtn {
+  background-color: rgb(144, 150, 194);
+  margin-left: 15px;
+}
+
+button {
+  border-radius: 8%;
+  border: none;
+  padding: 8px;
+  margin: 10px;
+}
+button:hover {
+  color: #fff;
+  transition: all 0.3s linear;
+}
+
+input {
+  width: 70%;
+  padding: 9px 10px;
+  margin: 10px;
+  box-sizing: border-box;
+}
+
+.general {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: #905c8b;
+  padding: 10px;
+}
+
+ul {
+  margin: 30px;
+}
+
+.liElement {
+  margin: 15px;
+  padding: 5px;
+  border: violet solid 1px;
+  border-radius: 10px;
+}
+
+.btnDetals {
+  color: black;
+  background-color: aqua;
+}
+
+#list {
+  display: flex;
+  flex-direction: column;
+}
+
+.btn {
+  color: black;
+  background-color: rgb(173, 228, 230);
+}
+.btn:hover {
+  color: #fff;
+  transition: all 0.3s linear;
+}
